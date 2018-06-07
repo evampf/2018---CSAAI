@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8" />
+	<script src="webcamfilter.js"></script>
+	<link rel="stylesheet" href="webcamfilter.css" />
+	<title> Filtro Eva María </title>
+
+</head>
+
+<body>
+	<img class="cromabg" id="backgroundimg" src="fondo-croma.jpg" style="visibility: hidden;">
+	<button class="cromafilter" onclick="docroma()"> Croma </button>
+	<button class="bluefilter" onclick="doblue()"> Filtro Azul</button>
+	<button class="blackandwhite" onclick="doblackandwhite()"> Blanco & Negro </button>
+	<center>
+		<h1 id="title"> Filtro Eva María </h1>
+	</center>
+
+	<canvas id=myCanvas></canvas>
+
+	<video id="myVideo" controls>
+		<source src="video3.mp4" type="video/mp4">
+	</video>
+
+</body>
+
+</html>
