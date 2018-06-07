@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>REALIZADOR EVA MARÍA</title>
+  <script src="realizador.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Covered By Your Grace' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet'>
+  <link rel="stylesheet" href="realizador.css">
+</head>
+
+<body onload="main()">
+  <h1>REALIZADOR EVA MARÍA</h1>
+  <h2 id="Clock" style="font-family:'Orbitron'">00:00</h2>
+  <canvas id="canvas" width="500" height="300"></canvas>
+  <div id="video-controls">
+    <button type="button" id="play-pause" onclick="Play()">P</button>
+    <input type="range" id="barra_temporal" min="0" max="100" step="1" value="0">
+    <button type="button" id="mute" onclick="Mute()">Q</button>
+    <input type="range" id="volumen" min="0" max="1" step="0.1" value="1">
+  </div>
+  <p id="tiempo"> Tiempo vídeo:
+      <span id="counter">0:0:0</span>
+  <p id="text1">Elige un vídeo: </p>
+  <div id="aux-cams">
+    <video id="aux1" type="video/mp4" src="video1.mp4" width="15%" height="15%" muted="true" onclick="ChooseCam(1)"></video>
+    <video id="aux2" type="video/mp4" src="video2.mp4" width="15%" height="15%" muted="true" onclick="ChooseCam(2)"></video>
+    <video id="aux3" type="video/mp4" src="video3.mp4" width="15%" height="15%" muted="true" onclick="ChooseCam(3)"></video>
+    <video id="aux4" type="video/mp4" src="video4.mp4" width="11%" height="11%" muted="true" onclick="ChooseCam(4)"></video>
+  </div>
+</body>
+
+</html>

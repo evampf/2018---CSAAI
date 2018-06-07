@@ -1,0 +1,104 @@
+@font-face {
+  font-family: cont;
+  src: url("controls.ttf");
+
+}
+
+@font-face{
+  font-family: disney;
+  src: url("disney.ttf");
+}
+
+body{
+  background-image: url("real.jpg");
+}
+h1 {
+  text-align: center;
+  font-family: disney;
+  font-size: 80px;
+  color: pink;
+  font-weight: normal;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "dig";
+  color: white;
+  font-weight: normal;
+  margin-top: 1%;
+  margin-bottom: 0%;
+}
+
+canvas {
+    border: 10px solid pink;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#video-controls {
+  text-align: center;
+}
+
+#play-pause {
+  font-size: 50px;
+  color: black;
+  font-size: 20px;
+  font-family: cont;
+  padding: 7px 20px 10px 20px;
+  border: solid grey 6px;
+  cursor:pointer; cursor: hand;
+  text-decoration: none;
+}
+
+#mute {
+  font-size: 50px;
+  color: black;
+  font-size: 20px;
+  font-family: cont;
+  padding: 7px 20px 10px 20px;
+  border: solid grey 6px;
+  cursor:pointer; cursor: hand;
+  text-decoration: none;
+}
+#volume-bar {
+  margin-top: 1%;
+  width: 50px;
+  height: 3px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000;
+  background: grey;
+  border-radius: 5px;
+  border: 1px solid #000000;
+}
+
+#text1 {
+  text-align: center;
+  font-size: 30px;
+  color: pink;
+
+}
+
+#tiempo{
+  text-align: center;
+  font-size: 30px;
+  color: pink;
+}
+
+#counter{
+  text-align: center;
+  font-size: 30px;
+  color: pink;
+}
+
+#aux-cams {
+  text-align: center;
+  border: 10px solid pink;
+}
