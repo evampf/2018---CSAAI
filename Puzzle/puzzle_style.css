@@ -1,0 +1,77 @@
+
+
+@font-face{
+    font-family: disney;
+    src: url("disney.ttf");
+}
+
+body{
+    background-color:pink ;
+}
+
+
+.button{
+	background-color: palevioletred;
+	border: none;
+	border-radius: 80%;
+	color: rgb(107, 77, 107);
+	padding: 10px 10px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-family: disney;
+	font-size: 40px;
+	position: center;
+	top: 320px;
+	left: 50px;
+}
+
+.button:hover {
+    background-color: plum;
+    color: black;
+  }
+
+div.mainslider{
+position: center;
+top: 30px;
+left: 600px;
+}
+img.slide{
+	cursor: pointer;
+}
+
+table{
+	position: absolute;
+	right: 60px;
+	background-color: black;
+	border-collapse: collapse;
+	border: 6px solid black;
+}
+
+#titulo {
+
+	font-family: disney;
+	font-size: 50px;
+	color: rgb(12, 10, 10);
+	margin-top: 5%;
+	margin-bottom: 3%;
+	}	
+#tiempo {
+	font-family: disney;
+	font-size: 50px;
+	color: rgb(12, 10, 10);
+	margin-top: 5%;
+	margin-bottom: 3%;
+  }
+#counter {
+	font-family: disney;
+	font-size: 50px;
+	color: rgb(12, 10, 10);
+	margin-top: 5%;
+	margin-bottom: 3%;
+  }
+
+
+
+  

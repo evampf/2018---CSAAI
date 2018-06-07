@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="puzzle_style.css">
+  <script src="puzzle.js" onload="main()"></script>
+  <style>
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  </style>
+  <title>Disney Puzzle</title>
+</head>
+
+<body>
+  <div class="mainslider">
+    <tr>
+      <th>
+        <img id="c0" src="Images/0/White.jpeg">
+      </th>
+      <th>
+        <img id="c1" src="Images/0/White.jpeg">
+      </th>
+      <th>
+        <img id="c2" src="Images/0/White.jpeg">
+      </th>
+    </tr>
+  </div>
+  <table>
+    
+    <tr>
+      <th>
+        <img id="p0" src="Images/0/White.jpeg">
+      </th>
+      <th>
+        <img id="p1" src="Images/0/White.jpeg">
+      </th>
+      <th>
+        <img id="p2" src="Images/0/White.jpeg">
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <img id="p3" src="Images/0/White.jpeg">
+      </th>
+      <th>
+        <img id="p4" src="Images/0/White.jpeg">
+      </th>
+      <th>
+        <img id="p5" src="Images/0/White.jpeg">
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <img id="p6" src="Images/0/White.jpeg">
+      </th>
+      <th>
+        <img id="p7" src="Images/0/White.jpeg">
+      </th>
+      <th>
+        <img id="p8" src="Images/0/White.jpeg">
+      </th>
+    </tr>
+  </table>
+  <div id="slider"></div>
+  <button class="button" type="Chos" onclick="chooseImage()">Nueva imagen</button>
+  <button class="button" type="button" onclick="randomize()">Mover imagen</button>
+  <button class="button" type="button" onclick="solve()">Solución</button>
+  
+    <p>
+      <p id="titulo"> Puzzle Eva María
+      <p id="tiempo"> Tu tiempo:
+        <span id="counter">0:0:0</span>
+      </p>
+</body>
+
+</html>
